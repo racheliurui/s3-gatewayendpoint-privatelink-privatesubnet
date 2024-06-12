@@ -221,7 +221,6 @@ Resources:
       VpcId: !Ref VPC
   
   #https://docs.aws.amazon.com/vpc/latest/privatelink/create-interface-endpoint.html#vpce-private-dns
-  # S3 interface endpoint not like other interface endpoints, it does not support private dns
   S3InterfaceEndpoint:
       Type: "AWS::EC2::VPCEndpoint"
       Properties:
